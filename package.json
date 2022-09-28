@@ -1,0 +1,26 @@
+{
+  "name": "vite-template-solid",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "arc": "npx sandbox"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "chokidar": "^3.5.3",
+    "typescript": "^4.8.2",
+    "vite": "^3.0.9",
+    "vite-plugin-solid": "^2.3.0"
+  },
+  "dependencies": {
+    "@architect/architect": "^10.6.0",
+    "@architect/plugin-typescript": "^0.2.0",
+    "@types/architect__functions": "^3.13.7",
+    "axios": "^0.27.2",
+    "solid-js": "^1.5.1"
+  }
+}
